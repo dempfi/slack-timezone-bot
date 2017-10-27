@@ -6,9 +6,9 @@
 import { Slackbot } from '@xene/slack'
 import * as moment from 'moment'
 import { Moment } from 'moment'
-import config from './config'
 
-const slack = new Slackbot(config.slack)
+const token = process.env['TOKEN']
+const slack = new Slackbot({ botToken: token }).listen()
 
 /**
  * Matches time strings in free form text
