@@ -8,7 +8,7 @@
     "outDir": "dest",
     "baseUrl": "src",
     "allowJs": false,
-    "target": "es2017",
+    "target": "es5",
     "lib": ["es2017", "dom"]
   },
   "exclude": [
