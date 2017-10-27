@@ -1,0 +1,78 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "curly": false,
+    "member-access": [
+      false
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "no-trailing-whitespace": true,
+    "no-irregular-whitespace": true,
+    "object-literal-sort-keys": false,
+    "no-invalid-template-strings": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "arrow-parens": [
+      false,
+      "ban-single-arg-parens"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "space-before-function-paren": [
+      true,
+      {
+        "asyncArrow": "always"
+      }
+    ],
+    "interface-over-type-literal": false,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-type",
+      "check-separator",
+      "check-module"
+    ],
+    "no-boolean-literal-compare": true,
+    "new-parens": true,
+    "class-name": true,
+    "no-duplicate-imports": true,
+    "strict-type-predicates": true,
+    "no-unnecessary-type-assertion": true,
+    "prefer-for-of": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "eofline": true,
+    "cyclomatic-complexity": [
+      true,
+      10
+    ],
+    "no-submodule-imports": [
+      true,
+      "lodash/fp"
+    ]
+  }
+}

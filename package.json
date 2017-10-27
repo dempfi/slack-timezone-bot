@@ -1,0 +1,33 @@
+{
+  "name": "slack-tz-bot",
+  "version": "0.0.1",
+  "description": "Bot to automatically show times in timezones of all users.",
+  "main": "dest/index.js",
+  "scripts": {
+    "start": "node_modules/.bin/tsc; node dest/index.js",
+    "build": "tsc",
+    "dev": "./scripts/dev.sh"
+  },
+  "engines": {
+    "node": ">=8.5.0",
+    "yarn": ">=1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dempfi/slack-tz-bot.git"
+  },
+  "author": "Ike Ku <dempfi@toptal.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dempfi/slack-tz-bot/issues"
+  },
+  "homepage": "https://github.com/dempfi/slack-tz-bot#readme",
+  "dependencies": {
+    "@xene/slack": "^0.5.1",
+    "moment": "^2.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "typescript": "^2.5.2"
+  }
+}

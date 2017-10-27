@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "commonjs",
+    "outDir": "dest",
+    "baseUrl": "src",
+    "allowJs": false,
+    "target": "es2017",
+    "lib": ["es2017", "dom"]
+  },
+  "exclude": [
+    "dest",
+    "node_modules",
+    "scripts"
+  ]
+}
