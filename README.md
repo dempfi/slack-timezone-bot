@@ -20,10 +20,11 @@ Well... it's very simple — one message visible only to one person.
    [official Slack instructions](https://api.slack.com/slack-apps#creating_apps)
 3. Naviagte to `OAuth & Permissions` tab of your bot and add `chat:write:bot`
    and `users:read` OAuth Scopes;
-4. Obtain Slack `Bot User OAuth Access Token` from that page;
-5. Run bot via `TOKEN={BOT_TOKEN} yarn start`;
-6. Inivite the bot to channels where you want to use it;
-7. Done :)
+4. Create a new `Bot User` from the `Bot Users` page;
+5. Obtain Slack `Bot User OAuth Access Token` from the `OAuth & Permissions`;
+6. Run bot via `TOKEN={BOT_TOKEN} yarn start`;
+7. Inivite the bot to channels where you want to use it;
+8. Done :)
 
 <div align="right"><sup>
   made with ❤️ by <a href="https://github.com/dempfi">@dempfi</a>
