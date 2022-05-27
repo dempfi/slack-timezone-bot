@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node_modules/.bin/tsc; node dest/index.js",
     "build": "tsc",
-    "dev": "./scripts/dev.sh"
+    "dev": "./scripts/dev.sh",
+    "test": "snyk test"
   },
   "engines": {
     "node": ">=8.5.0",
@@ -24,10 +25,11 @@
   "homepage": "https://github.com/dempfi/slack-tz-bot#readme",
   "dependencies": {
     "@xene/slack": "^0.5.1",
-    "moment": "^2.19.1"
+    "moment": "2.29.2"
   },
   "devDependencies": {
     "@types/node": "^8.0.47",
+    "snyk": "^1.940.0",
     "typescript": "^2.5.2"
   }
 }
