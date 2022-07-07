@@ -24,7 +24,7 @@
   "homepage": "https://github.com/dempfi/slack-tz-bot#readme",
   "dependencies": {
     "@xene/slack": "^0.5.1",
-    "moment": "^2.19.1"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@types/node": "^8.0.47",
